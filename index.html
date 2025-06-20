@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Islom Sadriddinov | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            fade: 'fadeIn 1s ease-in-out',
+            bounceIn: 'bounceIn 1s ease-in-out',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+            bounceIn: {
+              '0%': { transform: 'scale(0.5)', opacity: '0' },
+              '100%': { transform: 'scale(1)', opacity: '1' },
+            },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- Header -->
+  <header class="p-6 flex justify-between items-center border-b border-white/10">
+    <h1 class="text-2xl font-bold">Islom Sadriddinov</h1>
+    <nav class="space-x-4 text-sm">
+      <a href="#menhaqimda" class="hover:underline">Men haqimda</a>
+      <a href="#ishlarim" class="hover:underline">Ishlarim</a>
+      <a href="#brendlar" class="hover:underline">Brendlar</a>
+      <a href="#aloqa" class="hover:underline">Aloqa</a>
+    </nav>
+  </header>
+
+  <!-- Men haqimda -->
+  <section id="menhaqimda" class="p-8 max-w-4xl mx-auto text-center">
+    <h2 class="text-2xl font-semibold mb-6 animate-fade">Men haqimda</h2>
+    <div class="flex flex-col items-center gap-6">
+      <img src="Portfolio/Portfolio/portfolio_about_meme.png" class="w-80 rounded-xl shadow-xl animate-bounceIn" alt="Men haqimda">
+      <a href="https://t.me/itsislom" target="_blank">
+        <img src="Portfolio/Portfolio/contact_me.png" class="w-24 h-24 rounded-full hover:scale-110 transition duration-300" alt="Avatar">
+        <p class="mt-2 text-sm text-blue-400 hover:underline">@itsislom</p>
+      </a>
+      <p class="text-white/80 max-w-xl">
+        Men kreativ dizayn, sun’iy intellekt, video tahrirlash va Telegram loyihalari bilan shug‘ullanaman. Quyida mening haqiqiy ishlarim va kimlar bilan ishlaganimni ko‘rishingiz mumkin.
+      </p>
+    </div>
+  </section>
+
+  <!-- Ishlarim -->
+  <section id="ishlarim" class="p-8">
+    <h2 class="text-xl font-semibold mb-6 text-center">Ishlarim</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <img src="Portfolio/Portfolio/photo_design_examples.png" class="rounded-xl shadow" alt="Photo Design">
+      <img src="Portfolio/Portfolio/photo_youtube_design_examples.png" class="rounded-xl shadow" alt="YouTube Design">
+      <img src="Portfolio/Portfolio/edits_video_design.png" class="rounded-xl shadow" alt="Video Edits">
+      <img src="Portfolio/Portfolio/content_created_with_ai.png" class="rounded-xl shadow" alt="AI Content">
+      <img src="Portfolio/Portfolio/omonxon_youtube_video_examples.png" class="rounded-xl shadow" alt="Omonxon YouTube">
+      <img src="Portfolio/Portfolio/other_projects_in_telegram.png" class="rounded-xl shadow" alt="Telegram Projects">
+      <img src="Portfolio/Portfolio/portfolio_overlay.png" class="rounded-xl shadow" alt="Overlay Design">
+      <img src="Portfolio/Portfolio/view_portfolio.png" class="rounded-xl shadow" alt="View Portfolio">
+      <!-- AI Works -->
+      <img src="Portfolio/Portfolio/Ai/ai_1.jpg" class="rounded-xl shadow" alt="AI Work 1">
+      <img src="Portfolio/Portfolio/Ai/ai_2.jpg" class="rounded-xl shadow" alt="AI Work 2">
+      <img src="Portfolio/Portfolio/Ai/ai_3.jpg" class="rounded-xl shadow" alt="AI Work 3">
+      <!-- Design Examples -->
+      <img src="Portfolio/Portfolio/Design Examples/1.jpg" class="rounded-xl shadow" alt="Design 1">
+      <img src="Portfolio/Portfolio/Design Examples/2.jpg" class="rounded-xl shadow" alt="Design 2">
+      <img src="Portfolio/Portfolio/Design Examples/3.jpg" class="rounded-xl shadow" alt="Design 3">
+      <img src="Portfolio/Portfolio/Design Examples/4.jpg" class="rounded-xl shadow" alt="Design 4">
+      <img src="Portfolio/Portfolio/Design Examples/5.jpg" class="rounded-xl shadow" alt="Design 5">
+      <img src="Portfolio/Portfolio/Design Examples/6.jpg" class="rounded-xl shadow" alt="Design 6">
+      <img src="Portfolio/Portfolio/Design Examples/7.jpg" class="rounded-xl shadow" alt="Design 7">
+      <img src="Portfolio/Portfolio/Design Examples/8.jpg" class="rounded-xl shadow" alt="Design 8">
+      <img src="Portfolio/Portfolio/Design Examples/9.png" class="rounded-xl shadow" alt="Design 9">
+      <img src="Portfolio/Portfolio/Design Examples/10.jpg" class="rounded-xl shadow" alt="Design 10">
+      <!-- Previews -->
+      <img src="Portfolio/Portfolio/Previews Examples/p_1.png" class="rounded-xl shadow" alt="Preview 1">
+      <img src="Portfolio/Portfolio/Previews Examples/p_2.jpg" class="rounded-xl shadow" alt="Preview 2">
+      <img src="Portfolio/Portfolio/Previews Examples/p_3.jpg" class="rounded-xl shadow" alt="Preview 3">
+      <img src="Portfolio/Portfolio/Previews Examples/p_4.jpg" class="rounded-xl shadow" alt="Preview 4">
+    </div>
+  </section>
+
+  <!-- Brendlar bilan ishlagan loyihalar -->
+  <section id="brendlar" class="p-8 bg-white text-black">
+    <h2 class="text-xl font-semibold mb-6 text-center">Brendlar bilan loyihalar</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Bloom -->
+      <div class="flex flex-col items-center">
+        <img src="Portfolio/Portfolio/Worked Brands With Me/bloom.png" class="h-20 mb-2" alt="Bloom">
+        <video class="rounded-xl shadow-lg w-full" controls>
+          <source src="Portfolio/Portfolio/Worked Brands With Me/bloom.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- UstozAI -->
+      <div class="flex flex-col items-center">
+        <img src="Portfolio/Portfolio/Worked Brands With Me/ustozai.png" class="h-20 mb-2" alt="UstozAI">
+        <video class="rounded-xl shadow-lg w-full" controls>
+          <source src="Portfolio/Portfolio/Worked Brands With Me/ustozai.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- Akfaperfect -->
+      <div class="flex flex-col items-center">
+        <img src="Portfolio/Portfolio/Worked Brands With Me/akfaperfect.png" class="h-20 mb-2" alt="Akfaperfect">
+        <video class="rounded-xl shadow-lg w-full" controls>
+          <source src="Portfolio/Portfolio/Worked Brands With Me/akfaperfect.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- Shohdiyor -->
+      <div class="flex flex-col items-center">
+        <img src="Portfolio/Portfolio/Worked Brands With Me/shohdiyor.png" class="h-20 mb-2" alt="Shohdiyor">
+        <video class="rounded-xl shadow-lg w-full" controls>
+          <source src="Portfolio/Portfolio/Worked Brands With Me/shohdiyor.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aloqa -->
+  <section id="aloqa" class="p-8 text-center">
+    <h2 class="text-xl font-semibold mb-4">Aloqa</h2>
+    <p>Instagram: <a href="https://instagram.com/itsislom" class="text-blue-400 hover:underline" target="_blank">@itsislom</a></p>
+    <p>Telegram: <a href="https://t.me/itsislom" class="text-blue-400 hover:underline" target="_blank">@itsislom</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-4 text-center text-white/50 border-t border-white/10">
+    © 2025 Islom Sadriddinov. Hammasi o‘zimdan.
+  </footer>
+
+</body>
+</html>
